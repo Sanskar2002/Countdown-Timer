@@ -11,6 +11,7 @@ let valueInSeconds; //second remaining
 let isPaused = false; //to check if timer is paused or not
 
 function startTimer() {
+    if (timer) clearInterval(timer);
     valueInSeconds = parseInt(timeInput.value); //convert string value in number
     if (isNaN(valueInSeconds)) {
       outputtxt.innerText = "Enter a valid number"; 
