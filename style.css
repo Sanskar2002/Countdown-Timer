@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    /* flex-direction: column;
+    text-align: center; */
+}
+
+.timer{
+    text-align: center;
+}
+
+button , input{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
